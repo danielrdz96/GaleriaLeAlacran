@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+     <link href="css/bootstrap.css" rel="stylesheet"/>
+</head>
+     <style>
+        
+        .Banner{
+            display: inline-block;
+            background: url(images/banner3.png) no-repeat;    
+        }
+        
+        #Encabezado{
+        width: 738px;
+        height: 400px;
+        background-position: 0px 0px;
+        position: absolute;
+        margin-top: -24px;
+        margin-left: 372px; 
+        border-radius:5px;   
+        }
+        
+        #Titulo{
+        font-family:"cosmopolitan";
+        margin-top: 49px;
+        margin-left: 532px;  
+        }
+         
+             
+         
+         
+         body{
+             
+             background: url(galeria_del_palacio_municipal.jpg) no-repeat;
+             background-size: 100vw 100vh;
+         }
+</style>
+    
+<body>
+    
+    
+    
+     <div class="Banner" id="Encabezado"></div> <!--Imagen del banner-->
+    <h1 id=Titulo >Galeria Le'Alacran</h1> <!--Imagen del banner-->
+    
+    
+    <div class="row">
+        <div class="col-md-6-col-md-offset-3">
+            <form  method="post" action="getUsuariosOO.php">
+            <legend style="margin-left:540px;margin-top:171px;position:absolute;border:0px;font-size:29px;">Iniciar Sesion</legend>
+            
+                
+                <div class="form-group" style="position:absolute;margin-left:540px;margin-top:236px;">
+                 <label class="control-label">Usuario</label>
+                <div class="controls">
+                <input type="text" id="nombre" name="user" class="input-xlarge">
+                </div>
+             </div>
+                
+                <div class="control-group" style="position:absolute;margin-left:540px;margin-top:315px;">
+                <label class="control-label">Contraseña</label>
+                <div class="controls">
+             <input TYPE="password" name="password" type="text" id="password"  />
+                </div>
+                     </div>      
+              <input type="submit" value="Entrar" class="btn btn-primary" style="margin-left:540px;position:absolute;margin-top:400px;">
+                
+          <a href="registro.html">           
+         <input  value="Registrar" class="btn btn-primary" style="margin-left:640px;position:absolute;margin-top:400px;" ></a>
+            </form>
+        
+        </div>
+    </div>
+ 
+
+</body>
+    
+</html>

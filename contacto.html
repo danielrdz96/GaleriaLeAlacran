@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <style>
+         #Regresar{
+        font-size:17px;
+        font-family:"cosmopolitan";
+        margin-top: -68px;
+        margin-left: -420px;  
+        color:black;
+        position:absolute;
+        }   
+        
+    </style>
+    <body>
+        <form action="php/enviar.php" method="post">
+        <h2>CONTACTO</h2>
+            
+        <h1 id=Regresar >Regresar al inicio</h1>
+        <a href="index.html"><img src="images/banner5.png" width:"236px" height:"154px" background-position:"0px 0px" position:"absolute"
+        margin-top:"-60px" margin-left:"1011px"  border-radius:"5px" style="position:absolute; margin-left:-458px; margin-top:-76px;"></a>
+            
+<img src="images/banner5.png" width:"236px" height:"154px" background-position:"0px 0px" position:"absolute"
+margin-top:"-60px" margin-left:"1011px"  border-radius:"5px" style="width:220px; position:absolute; margin-left:13px; margin-top:-77px;">
+        <input type="text" name="Nombre" placeholder="Nombre" required >
+        <input type="text" name="correo" placeholder="Correo" required>
+        <input type="text" name="telefono" placeholder="Telefono" required>
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required ></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
+        </form>
+    </body>
+</html>

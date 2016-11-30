@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria Le'Alacran</title>
+    <style>
+         body{
+            
+            background-size: 100vw 100vh;
+             
+         }
+        .Banner{
+            display: inline-block;
+            background: url(images/banner3.png) no-repeat;    
+        }
+        
+        #Encabezado{
+        width: 738px;
+        height: 400px;
+        background-position: 0px 0px;
+        position: absolute;
+        margin-top: -24px;
+        margin-left: 372px; 
+        border-radius:5px;   
+        }
+        
+        #Titulo{
+        font-family:"cosmopolitan";
+        margin-top: 49px;
+        margin-left: 532px;  
+        }
+        
+        #TituloContacto{
+        font-size:18px;
+        font-family:"cosmopolitan";
+        margin-top: 145px;
+        margin-left: 1019px;  
+        color:black;
+        }
+        
+        #TituloPintores{
+        font-size:18px;
+        font-family:"cosmopolitan";
+        margin-top: -36px;
+        margin-left: 639px;  
+        color:black;
+        }
+       
+        
+        #TituloQuienes{
+        font-size:17px;
+        font-family:"cosmopolitan";
+        margin-top: -32px;
+        margin-left: 239px;  
+        color:black;
+        position:absolute;
+        }
+        
+        #Expresate{
+        font-size: 13px;
+    font-family: "cosmopolitan";
+    margin-top: -136px;
+    margin-left: 623px;
+    color: black;
+    position: absolute;
+        }
+        
+        
+        
+</style>
+<body>
+    
+<link rel="Stylesheet" type="text/css" href="style/content.css"> <!----->
+<link rel="Stylesheet" type="text/css" href="style/carousel.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.11/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.carousel-1.1.min.js"></script> <!---->
+<script type="text/javascript" src="scripts/sample01.js"></script>  <!--Botones del carrusel-->
+</head>
+    
+
+    
+<div class="Banner" id="Encabezado"></div> <!--Imagen del banner Galeria-->
+<h1 id=Titulo >Galeria Le'Alacran</h1> <!--Titulo Galeria-->
+    
+<h1 id=TituloContacto >Contacto</h1> <!--Titulo Contacto-->  
+<a href="contacto.html"><img src="images/banner5.png" width:"236px" height:"154px" background-position:"0px 0px" position:"absolute"
+margin-top:"-60px" margin-left:"1011px"  border-radius:"5px" style="position:absolute; margin-left:954px; margin-top:-38px;"</a>
+
+
+<h1 id=TituloPintores >Biografia</h1> <!--Titulo biografias-->  
+<a href="indice.html"><img src="images/banner5.png"  width:"236px" height:"154px" background-position:"0px 0px" position:"absolute"
+margin-top:"-60px" margin-left:"640px"  border-radius:"5px" style="position:absolute; margin-left:577px; margin-top:-39px;"</a>
+    
+
+<h1 id=TituloQuienes >¿Quiénes Somos?</h1>  <!--Titulo Quienes Somos-->   
+<a href="quienesomos.html" style=text-decoration:none;><img src="images/banner5.png"  width:"236px" height:"154px" background-position:"0px 0px" position:"absolute"
+margin-top:"-60px" margin-left:"640px"  border-radius:"5px" style="position:absolute; margin-left:202px; margin-top:-39px;"</a>
+
+    <h1 id=Expresate >EXPRESATE!!</h1>  <!--Titulo Quienes Somos-->   
+<a href="index2.php" style=text-decoration:none;><img src="images/banner5.png"  width:"236px" height:"154px" background-position:"0px 0px" position:"absolute"
+margin-top:"-60px" margin-left:"640px"  border-radius:"5px" style="position:absolute; margin-left:563px; margin-top:-144px;"</a>
+    
+   
+  
+<!-- carrusel -->
+
+<div class="carousel">
+    
+<div class="slides" style="width: 930px; height: 330px; margin-top:53px;"> <!--todo el carrusel-->
+  
+ <!--Slide foto 1--->
+  <div class="slideItem" style="width: 256px; height: 211.2px; top: 54px; right: 34.6px; opacity: 1; z-index: 4; display: block;"> <!--propiedades de slide 1-->
+    <a href="pintura1.html">  <img src="images/slide-1.jpg" style="width: 256px; height: 192px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div> <!--sombra del lado izquierdo de la foto 1-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 56px;"></div> <!--sombra del enmedio de la foto 1-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 1-->
+    </div>
+  </div>
+     
+    
+  <!--Slide foto 2--->
+  <div class="slideItem" style="width: 204.8px; height: 168.96px; top: 73.2px; right: -47.32px; opacity: 0; z-index: 3; display: none;"> <!--propiedades de slide 2-->
+    <a href="pintura2.html"> <img src="images/slide-2.jpg" style="width: 204.8px; height: 153.6px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div><!--sombra del lado izquierdo de la foto 2-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 4.80000000000001px;"></div><!--sombra del enmedio de la foto 2-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 2-->
+    </div>
+  </div>
+      
+    
+  <!--Slide foto 3--->
+  <div class="slideItem" style="width: 204.8px; height: 168.96px; top: 73.2px; right: 772.52px; opacity: 0; z-index: 3; display: none;"> <!--propiedades de slide 3-->
+      <a href="pintura3.html"> <img src="images/slide-3.JPG" style="width: 204.8px; height: 153.6px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div><!--sombra del lado izquierdo de la foto 3-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 4.80000000000001px;"></div><!--sombra del enmedio de la foto 3-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 3-->
+    </div>
+  </div>
+    
+  <!--Slide foto 4--->
+  <div class="slideItem" style="width: 256px; height: 211.2px; top: 54px; right: 639.4px; opacity: 1; z-index: 4; display: block;"><!--propiedades de slide 4-->
+      <a href="pintura4.html"> <img src="images/slide-4.jpg" style="width: 256px; height: 192px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div><!--sombra del lado izquierdo de la foto 4-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 56px;"></div><!--sombra del enmedio de la foto 4-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 4-->
+    </div>
+  </div>
+
+    
+  <!--Slide foto 5--->
+  <div class="slideItem" style="width: 320px; height: 264px; top: 30px; right: 473px; opacity: 1; z-index: 5; display: block;"><!--propiedades de slide 5--> <a href="pintura5.html"> <img src="images/slide-5.jpg" style="width: 320px; height: 240px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div><!--sombra del lado izquierdo de la foto 5-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 120px;"></div><!--sombra del enmedio de la foto 5-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 5-->
+    </div>
+  </div>
+    
+    
+  <!--Slide foto 6--->
+  <div class="slideItem" style="width: 400px; height: 330px; top: 0px; right: 265px; opacity: 1; z-index: 6; display: block;"><!--propiedades de slide 6--> <a href="pintura6.html"> <img src="images/slide-6.jpg" style="width: 400px; height: 300px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div><!--sombra del lado izquierdo de la foto 6-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 200px;"></div><!--sombra del enmedio de la foto 6-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 6-->
+    </div>
+  </div>
+    
+ <!--Slide foto 7--->
+    <div class="slideItem" style="width: 320px; height: 264px; top: 30px; right: 137px; opacity: 1; z-index: 5; display: block;"><!--propiedades de slide 5--> <a href="pintura7.html"><img src="images/slide-7.jpg" style="width: 320px; height: 240px; display: inline-block;"></a><!--La imagen y la referencia hacia la otra pagina-->
+    <div class="shadow" style="width: 400px; z-index: -1; position: absolute; margin: 0px; padding: 0px; border: none; overflow: hidden; left: 0px; bottom: 0px;">
+      <div class="shadowLeft" style="position: relative; float: left;"></div><!--sombra del lado izquierdo de la foto 7-->
+      <div class="shadowMiddle" style="position: relative; float: left; width: 120px;"></div><!--sombra del enmedio de la foto 7-->
+      <div class="shadowRight" style="position: relative; float: left;"></div><!--sombra del lado derecho de la foto 7-->
+    </div>
+  </div>
+    
+</div>
+</div>
+    
+</script>
+    
+</body>
+    
+</html>
